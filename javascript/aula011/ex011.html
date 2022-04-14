@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            font: bolder 18px helvetica;
+        }
+    </style>
+</head>
+<body>
+    <h1>Qual país Você nasceu?</h1>
+    Digite o país que Você nasceu: <input type="text" name="txtp" id="txtp">
+    <input type="button" value="OK" onclick="verificar()">
+
+    <script>
+        function verificar() {
+            var pais = window.document.querySelector('input#txtp')
+            res.innerHTML = `O país que você nasceu é o ${'txtp'}`
+            if (txtp = Brasil) {
+                res.innerHTML += 'Você é Brasileiro!'
+            }
+            else {
+                res.innerHTML += 'Você é estrangeiro!'
+            }
+        }
+    </script>
+</body>
+

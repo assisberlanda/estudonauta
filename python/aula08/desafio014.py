@@ -1,0 +1,1 @@
+convertendo Celsius em farenheid

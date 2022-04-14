@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+header {
+    color: white;
+    text-align: center;
+    font: normal 1em arial;
+}
+
+body {
+    background-color: rgb(11, 147, 226);
+    font: normal 1em verdana;
+    padding: 10px;
+}
+section {
+  
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.596);
+    padding: 10px;
+    margin: auto;
+}
+footer {
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font: normal 1em arial;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: brown;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+}
+main {
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(3, 88, 3, 0.712);
+
+}
+p {
+    text-align: justify;
+}
+h1 {
+    color: green;
+}
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+/*
+Onde em HTML é id em CSS é #
+Onde em HTML é class em CSS é .
+*/
+.basico {
+    color: rgb(8, 71, 8);
+    font-weight: bold;
+}
+ .intermediario {
+     color: rgb(9, 9, 116);
+     font-weight: bold;
+     text-align: center;
+ }
+ .avancado {
+     color: rgb(124, 8, 8);
+     font-weight: bold;
+     text-align: right;
+ }
+ .paragrafo {
+     text-indent: 3em;
+ }

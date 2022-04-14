@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: normal 20px arial;
+            background-color: rgb(42, 139, 42);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 5px 8px rgb(54, 53, 53);
+            text-shadow: 2px 2px 4px black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="area">
+        interaja...
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'Clicou Trouxa!'
+            a.style.background = 'red'
+        }
+            function entrar() { 
+            a.innerText = 'Click aqui Bundão.'
+            a.style.background = 'blue'
+        }
+        function sair() {
+            a.innerHTML = 'Já vai medroso kkk'
+            a.style.background = 'rgb(42, 139, 42)'
+            
+        }
+    </script>
+
+</body>
+</html>
